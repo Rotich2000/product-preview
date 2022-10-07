@@ -21,7 +21,7 @@
 }
 
 .app__card-image{
-    height: 320px;
+    height: 400px;
     width: 230px;
     
 }
@@ -40,7 +40,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 230px;
-    height: 320px;
+    height: 400px;
     background: hsl(0, 0%, 100%);
     padding: 0.5rem 1.5rem;
     border-radius: 0px 10px 10px 0px;

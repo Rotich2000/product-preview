@@ -21,7 +21,10 @@
   <div class="app__container">
     <div class="app__card">
       <div class="app__card-image">
-        <img src="./images/image-product-desktop.jpg" alt="spray" srcset="">
+        <picture>
+          <source media="(max-width:537px)" srcset="./images/image-product-mobile.jpg">
+          <img src="./images/image-product-desktop.jpg" alt="spray" srcset="">
+        </picture>
       </div>
       <div class="app__card-content">
         <p class="app__card-title">Perfume</p>
